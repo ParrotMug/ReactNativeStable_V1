@@ -44,12 +44,18 @@ The molecule rendering uses a request/response pattern where:
 - Stack navigation for quiz flows
 - Practice screen acts as topic/mode selector before launching quiz
 
+### Authentication System
+- **AuthContext** (`contexts/AuthContext.tsx`): React context providing user state and auth methods
+- **Login Screen** (`app/login.tsx`): Email/password login and signup with guest mode option
+- **Profile Screen** (`app/profile.tsx`): User profile display with sign out functionality
+- Session persistence using AsyncStorage for seamless user experience
+
 ## External Dependencies
 
 ### Backend Services
 - **Supabase**: Backend-as-a-Service for authentication and data storage
   - Configured in `lib/supabase.ts`
-  - Currently set with `persistSession: false` (sessions not persisted across app restarts)
+  - Session persistence enabled with AsyncStorage
   - Uses Supabase JavaScript client v2.39.7
 
 ### Chemistry Libraries
@@ -63,3 +69,4 @@ The molecule rendering uses a request/response pattern where:
 - `expo-haptics`: Tactile feedback on iOS
 - `react-native-reanimated`: Animation library
 - `react-native-url-polyfill`: Required for Supabase compatibility
+- `@react-native-async-storage/async-storage`: Session persistence for authentication
