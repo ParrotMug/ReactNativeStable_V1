@@ -1,0 +1,677 @@
+[
+  {
+    "id": "syn_06",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1",
+    "arrow_label": "HNO₃, H₂SO₄",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1N",
+      "B": "c1ccccc1[N+](=O)[O-]",
+      "C": "c1ccccc1S(=O)(=O)O",
+      "D": "c1ccccc1O"
+    },
+    "correct": "B",
+    "explanation": "Nitrierung von Benzol: Die elektrophile aromatische Substitution führt eine Nitrogruppe ein."
+  },
+  {
+    "id": "syn_07",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)C",
+    "arrow_label": "1. CH₃MgBr, Et₂O\n2. H₃O⁺",
+    "visual_options": true,
+    "options": {
+      "A": "CC(C)(O)C",
+      "B": "CC(C)O",
+      "C": "CC(=O)O",
+      "D": "CC(C)(C)O"
+    },
+    "correct": "A",
+    "explanation": "Grignard-Reaktion: Addition eines Grignard-Reagenz an ein Keton liefert einen tertiären Alkohol."
+  },
+  {
+    "id": "syn_08",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "C=CC=C",
+    "arrow_label": "+ Ethen (C=C)\nHitze",
+    "visual_options": true,
+    "options": {
+      "A": "C1CCCCC1",
+      "B": "C1=CCCCC1",
+      "C": "C1CC=CCC1",
+      "D": "C1=CC=CC=C1"
+    },
+    "correct": "C",
+    "explanation": "Diels-Alder-Reaktion: [4+2]-Cycloaddition von Butadien und Ethen ergibt Cyclohexen."
+  },
+  {
+    "id": "syn_09",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC#C",
+    "arrow_label": "H₂, Lindlar-Kat.",
+    "visual_options": true,
+    "options": {
+      "A": "CCC",
+      "B": "C/C=C\\C",
+      "C": "CC=C",
+      "D": "CC(O)C"
+    },
+    "correct": "C",
+    "explanation": "Lindlar-Reduktion: Alkine werden selektiv zu Alkenen reduziert (bei internen Alkinen entstünde das Z-Alken)."
+  },
+  {
+    "id": "syn_10",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1C(=O)C",
+    "arrow_label": "Zn(Hg), HCl",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1C(O)C",
+      "B": "c1ccccc1CC",
+      "C": "c1ccccc1C=C",
+      "D": "c1ccccc1C(=O)O"
+    },
+    "correct": "B",
+    "explanation": "Clemmensen-Reduktion: Reduktion von Ketonen/Aldehyden zu Alkanen unter sauren Bedingungen."
+  },
+  {
+    "id": "syn_11",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC=C",
+    "arrow_label": "mCPBA",
+    "visual_options": true,
+    "options": {
+      "A": "CC(O)CO",
+      "B": "CC1CO1",
+      "C": "CC(=O)C",
+      "D": "CC(O)C"
+    },
+    "correct": "B",
+    "explanation": "Epoxidierung: Peroxysäuren (wie mCPBA) wandeln Alkene in Epoxide um."
+  },
+  {
+    "id": "syn_12",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1",
+    "arrow_label": "+ CH₃COCl\nAlCl₃",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1C",
+      "B": "c1ccccc1Cl",
+      "C": "c1ccccc1C(=O)C",
+      "D": "c1ccccc1C(=O)O"
+    },
+    "correct": "C",
+    "explanation": "Friedel-Crafts-Acylierung: Benzol reagiert mit Acetylchlorid zum Keton."
+  },
+  {
+    "id": "syn_13",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)OC",
+    "arrow_label": "LiAlH₄, dann H₃O⁺",
+    "visual_options": true,
+    "options": {
+      "A": "CC=O",
+      "B": "CCO",
+      "C": "CC(=O)O",
+      "D": "CCOC"
+    },
+    "correct": "B",
+    "explanation": "Reduktion von Estern: LiAlH4 reduziert Ester bis zum primären Alkohol (hier Ethanol)."
+  },
+  {
+    "id": "syn_15",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1N",
+    "arrow_label": "Br₂, FeBr₃",
+    "visual_options": true,
+    "options": {
+      "A": "c1(Br)ccccc1N",
+      "B": "c1cc(Br)ccc1N",
+      "C": "c1cc(Br)cc(Br)c1N",
+      "D": "Nc1ccc(Br)cc1"
+    },
+    "correct": "D",
+    "explanation": "Bromierung von Anilin: Die Aminogruppe dirigiert nach ortho/para. Para ist oft sterisch begünstigt."
+  },
+  {
+    "id": "syn_16",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "C1CCCCC1O",
+    "arrow_label": "Na₂Cr₂O₇, H₂SO₄",
+    "visual_options": true,
+    "options": {
+      "A": "C1CCCCC1=O",
+      "B": "C1CCCCC1",
+      "C": "C1=CCCCC1",
+      "D": "OC1CCCCC1O"
+    },
+    "correct": "A",
+    "explanation": "Jones-Oxidation: Sekundäre Alkohole werden zu Ketonen oxidiert."
+  },
+  {
+    "id": "syn_17",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC=CC",
+    "arrow_label": "1. O₃\n2. Zn, H₂O",
+    "visual_options": true,
+    "options": {
+      "A": "CC(=O)O",
+      "B": "CC=O",
+      "C": "CCO",
+      "D": "CO"
+    },
+    "correct": "B",
+    "explanation": "Ozonolyse (reduktiv): Spaltung der Doppelbindung liefert hier zwei Moleküle Acetaldehyd."
+  },
+  {
+    "id": "syn_18",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1C(=O)C",
+    "arrow_label": "Br₂, NaOH, dann H₃O⁺",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1C(Br)=O",
+      "B": "c1ccccc1C(=O)O",
+      "C": "c1ccccc1C(Br)C",
+      "D": "c1ccccc1CO"
+    },
+    "correct": "B",
+    "explanation": "Haloform-Reaktion: Ein Methylketon wird zur Carbonsäure oxidiert (unter Abspaltung von Bromoform)."
+  },
+  {
+    "id": "syn_19",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC#C",
+    "arrow_label": "H₂O, H₂SO₄, HgSO₄",
+    "visual_options": true,
+    "options": {
+      "A": "CCC=O",
+      "B": "CC(=O)C",
+      "C": "CC(O)=C",
+      "D": "CCO"
+    },
+    "correct": "B",
+    "explanation": "Kuscherow-Reaktion (Oxymercurierung): Hydratisierung von Alkinen folgt Markovnikov und liefert Ketone."
+  },
+  {
+    "id": "syn_20",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1Br",
+    "arrow_label": "1. Mg, Et₂O\n2. CO₂\n3. H₃O⁺",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1O",
+      "B": "c1ccccc1C(=O)O",
+      "C": "c1ccccc1C=O",
+      "D": "c1ccccc1"
+    },
+    "correct": "B",
+    "explanation": "Grignard-Carboxylierung: Umsetzung eines Grignard-Reagenzes mit CO2 liefert eine Carbonsäure."
+  },
+  {
+    "id": "syn_21",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)Cl",
+    "arrow_label": "NH₃ (überschuss)",
+    "visual_options": true,
+    "options": {
+      "A": "CC(=O)O",
+      "B": "CC(=O)N",
+      "C": "CCN",
+      "D": "CC#N"
+    },
+    "correct": "B",
+    "explanation": "Ammonolyse: Säurechloride reagieren mit Ammoniak zu Amiden."
+  },
+  {
+    "id": "syn_22",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)C",
+    "arrow_label": "Zn(Hg), HCl",
+    "visual_options": true,
+    "options": {
+      "A": "CCC",
+      "B": "CC(O)C",
+      "C": "CC=C",
+      "D": "CCO"
+    },
+    "correct": "A",
+    "explanation": "Clemmensen-Reduktion: Reduktion der Carbonylgruppe zur Methylengruppe (-CH2-)."
+  },
+  {
+    "id": "syn_23",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1",
+    "arrow_label": "H₂SO₄ (rauchend)",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1S(=O)(=O)O",
+      "B": "c1ccccc1O",
+      "C": "c1ccccc1S",
+      "D": "c1ccccc1[SH]"
+    },
+    "correct": "A",
+    "explanation": "Sulfonierung: Einführung einer Sulfonsäuregruppe in den Aromaten."
+  },
+  {
+    "id": "syn_24",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)C",
+    "arrow_label": "+ Glykol (HOCH₂CH₂OH)\nH⁺",
+    "visual_options": true,
+    "options": {
+      "A": "CC(O)C",
+      "B": "CC1OCCO1",
+      "C": "CC(O)CCO",
+      "D": "CC1CO1"
+    },
+    "correct": "B",
+    "explanation": "Acetalbildung: Schutz einer Carbonylgruppe als cyclisches Acetal (Dioxolan)."
+  },
+  {
+    "id": "syn_25",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)O",
+    "arrow_label": "SOCl₂",
+    "visual_options": true,
+    "options": {
+      "A": "CC(=O)Cl",
+      "B": "CCCl",
+      "C": "CC(=O)S",
+      "D": "CC=O"
+    },
+    "correct": "A",
+    "explanation": "Bildung von Säurechloriden aus Carbonsäuren mit Thionylchlorid."
+  },
+  {
+    "id": "syn_26",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC#N",
+    "arrow_label": "H₃O⁺, Wärme",
+    "visual_options": true,
+    "options": {
+      "A": "CCN",
+      "B": "CC(=O)N",
+      "C": "CC(=O)O",
+      "D": "CC=O"
+    },
+    "correct": "C",
+    "explanation": "Hydrolyse von Nitrilen liefert Carbonsäuren."
+  },
+  {
+    "id": "syn_27",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1[N+](=O)[O-]",
+    "arrow_label": "Fe, HCl",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1Cl",
+      "B": "c1ccccc1N",
+      "C": "c1ccccc1",
+      "D": "c1ccccc1O"
+    },
+    "correct": "B",
+    "explanation": "Reduktion von Nitrobenzol zu Anilin (Béchamp-Reduktion oder analog)."
+  },
+  {
+    "id": "syn_28",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "C=C",
+    "arrow_label": "Br₂",
+    "visual_options": true,
+    "options": {
+      "A": "CCBr",
+      "B": "BrCCBr",
+      "C": "C=CBr",
+      "D": "BrC=CBr"
+    },
+    "correct": "B",
+    "explanation": "Halogenierung: Addition von Brom an ein Alken liefert ein vicinales Dibromid."
+  },
+  {
+    "id": "syn_30",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC1CO1",
+    "arrow_label": "NaOCH₃, CH₃OH",
+    "visual_options": true,
+    "options": {
+      "A": "CC(O)COC",
+      "B": "CC(OC)CO",
+      "C": "CC(=O)C",
+      "D": "CCCO"
+    },
+    "correct": "A",
+    "explanation": "Basische Epoxidöffnung: Das Nucleophil greift am weniger substituierten Kohlenstoff an."
+  },
+  {
+    "id": "syn_31",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1N",
+    "arrow_label": "NaNO₂, HCl, 0°C",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1[N+]#N",
+      "B": "c1ccccc1O",
+      "C": "c1ccccc1Cl",
+      "D": "c1ccccc1NO"
+    },
+    "correct": "A",
+    "explanation": "Diazotierung: Ein primäres aromatisches Amin wird in ein Diazoniumsalz umgewandelt."
+  },
+  {
+    "id": "syn_32",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC=C(C)C",
+    "arrow_label": "1. O₃\n2. Zn, H₂O",
+    "visual_options": true,
+    "options": {
+      "A": "CC=O.CC(=O)C",
+      "B": "CC(=O)O.CC(=O)C",
+      "C": "CCO.CC(O)C",
+      "D": "CC=C.C=O"
+    },
+    "correct": "A",
+    "explanation": "Ozonolyse: Spaltung der Doppelbindung zu Aldehyd und Keton."
+  },
+  {
+    "id": "syn_33",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CCC(O)C",
+    "arrow_label": "H₂SO₄, Hitze",
+    "visual_options": true,
+    "options": {
+      "A": "CC=CC",
+      "B": "CCC(=O)C",
+      "C": "CCCC",
+      "D": "CCC(O)C(O)C"
+    },
+    "correct": "A",
+    "explanation": "Eliminierung (Dehydratisierung): Alkohole bilden Alkene (Zaitsev-Produkt bevorzugt)."
+  },
+  {
+    "id": "syn_34",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1",
+    "arrow_label": "Cl₂, FeCl₃",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1Cl",
+      "B": "Clc1ccccc1Cl",
+      "C": "c1ccccc1",
+      "D": "ClC1CCCCC1Cl"
+    },
+    "correct": "A",
+    "explanation": "Chlorierung von Benzol: Elektrophile aromatische Substitution."
+  },
+  {
+    "id": "syn_36",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)OC",
+    "arrow_label": "2 PhMgBr, dann H₃O⁺",
+    "visual_options": true,
+    "options": {
+      "A": "CC(O)(c1ccccc1)c1ccccc1",
+      "B": "CC(=O)c1ccccc1",
+      "C": "CC(O)c1ccccc1",
+      "D": "c1ccccc1CO"
+    },
+    "correct": "A",
+    "explanation": "Grignard an Ester: Der Ester reagiert doppelt und liefert einen tertiären Alkohol."
+  },
+  {
+    "id": "syn_38",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)C",
+    "arrow_label": "NaOH, Hitze",
+    "visual_options": true,
+    "options": {
+      "A": "CC(=O)C=C(C)C",
+      "B": "CC(O)CC(=O)C",
+      "C": "CC(=O)CC(=O)C",
+      "D": "CC=C"
+    },
+    "correct": "A",
+    "explanation": "Aldol-Kondensation: Aceton kondensiert zu Mesityloxid (alpha,beta-ungesättigtes Keton)."
+  },
+  {
+    "id": "syn_39",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)C",
+    "arrow_label": "RCO₃H",
+    "visual_options": true,
+    "options": {
+      "A": "CC(=O)OC",
+      "B": "CC(=O)O",
+      "C": "CC(O)C",
+      "D": "COC(=O)C"
+    },
+    "correct": "A",
+    "explanation": "Baeyer-Villiger-Oxidation: Ein Sauerstoffatom wird neben die Carbonylgruppe eingeschoben (Esterbildung)."
+  },
+  {
+    "id": "syn_40",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1Cl",
+    "arrow_label": "HNO₃, H₂SO₄",
+    "visual_options": true,
+    "options": {
+      "A": "Clc1ccc([N+](=O)[O-])cc1",
+      "B": "Clc1cccc([N+](=O)[O-])c1",
+      "C": "c1ccccc1[N+](=O)[O-]",
+      "D": "c1ccccc1Cl"
+    },
+    "correct": "A",
+    "explanation": "Zweitsubstitution am Aromaten: Halogene sind schwach desaktivierend, aber ortho/para-dirigierend."
+  },
+  {
+    "id": "syn_41",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "C=CC=O",
+    "arrow_label": "LiAlH₄, H₃O⁺",
+    "visual_options": true,
+    "options": {
+      "A": "C=CCO",
+      "B": "CCC=O",
+      "C": "CCCO",
+      "D": "C=CC(=O)O"
+    },
+    "correct": "A",
+    "explanation": "1,2-Reduktion: LiAlH4 reduziert selektiv die Carbonylgruppe zum Alkohol."
+  },
+  {
+    "id": "syn_42",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1Br",
+    "arrow_label": "+ Phenylboronsäure\nPd-Kat.",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1-c2ccccc2",
+      "B": "c1ccccc1Oc2ccccc2",
+      "C": "c1ccccc1Br",
+      "D": "c1ccccc1"
+    },
+    "correct": "A",
+    "explanation": "Suzuki-Kupplung: Palladium-katalysierte Reaktion eines Arylhalogenids mit einer Boronsäure."
+  },
+  {
+    "id": "syn_43",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)Cl",
+    "arrow_label": "H₂, Pd/BaSO₄",
+    "visual_options": true,
+    "options": {
+      "A": "CC=O",
+      "B": "CCO",
+      "C": "CC(=O)O",
+      "D": "CC"
+    },
+    "correct": "A",
+    "explanation": "Rosenmund-Reduktion: Selektive Reduktion von Säurechloriden zu Aldehyden."
+  },
+  {
+    "id": "syn_44",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccc(CC)cc1",
+    "arrow_label": "KMnO₄, H₂O, Hitze",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1C(=O)O",
+      "B": "c1ccccc1C=O",
+      "C": "c1ccccc1CO",
+      "D": "c1ccccc1"
+    },
+    "correct": "A",
+    "explanation": "Seitenkettenoxidation: Jede Alkylkette am Aromaten mit benzylischem H wird zur Benzoesäure oxidiert."
+  },
+  {
+    "id": "syn_45",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)CC(=O)OCC",
+    "arrow_label": "1. NaOEt\n2. + CH₃Br",
+    "visual_options": true,
+    "options": {
+      "A": "CC(=O)C(C)C(=O)OCC",
+      "B": "CC(=O)CC(=O)OC",
+      "C": "CC(=O)C(C)(C)C(=O)OCC",
+      "D": "CCO"
+    },
+    "correct": "A",
+    "explanation": "Alkylierung von CH-aciden Verbindungen (Acetessigester-Synthese)."
+  },
+  {
+    "id": "syn_46",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)N",
+    "arrow_label": "Br₂, NaOH",
+    "visual_options": true,
+    "options": {
+      "A": "CN",
+      "B": "CCN",
+      "C": "CC(=O)O",
+      "D": "CC(=O)NBr"
+    },
+    "correct": "A",
+    "explanation": "Hofmann-Umlagerung: Ein primäres Amid wird zum Amin abgebaut (C-Kette um 1 Atom verkürzt)."
+  },
+  {
+    "id": "syn_47",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1O",
+    "arrow_label": "+ CH₃I\nNaOH",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1OC",
+      "B": "c1ccccc1C",
+      "C": "c1ccccc1OO",
+      "D": "c1ccccc1"
+    },
+    "correct": "A",
+    "explanation": "Williamson-Ethersynthese: Methylierung von Phenol zu Anisol."
+  },
+  {
+    "id": "syn_48",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "C=C",
+    "arrow_label": "CH₂I₂, Zn-Cu",
+    "visual_options": true,
+    "options": {
+      "A": "C1CC1",
+      "B": "C=C(C)C",
+      "C": "CC",
+      "D": "CI"
+    },
+    "correct": "A",
+    "explanation": "Simmons-Smith-Reaktion: Cyclopropanierung von Alkenen."
+  },
+  {
+    "id": "syn_49",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC(=O)C",
+    "arrow_label": "NH₂NH₂, KOH, Hitze",
+    "visual_options": true,
+    "options": {
+      "A": "CCC",
+      "B": "CC(O)C",
+      "C": "CC=C",
+      "D": "CC(N)C"
+    },
+    "correct": "A",
+    "explanation": "Wolff-Kishner-Reduktion: Carbonylgruppe wird unter basischen Bedingungen vollständig zur Methylengruppe reduziert."
+  },
+  {
+    "id": "syn_50",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "c1ccccc1N",
+    "arrow_label": "+ CH₃COCl\nPyridin",
+    "visual_options": true,
+    "options": {
+      "A": "c1ccccc1NC(=O)C",
+      "B": "c1ccccc1C(=O)C",
+      "C": "c1ccccc1N(C)C",
+      "D": "c1ccccc1Cl"
+    },
+    "correct": "A",
+    "explanation": "Acylierung von Aminen: Bildung von Acetanilid."
+  },
+  {
+    "id": "syn_51",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "C1CCCCC1",
+    "arrow_label": "Br₂, hν",
+    "visual_options": true,
+    "options": {
+      "A": "C1CCCCC1Br",
+      "B": "C1=CCCCC1",
+      "C": "BrC1CCCCC1Br",
+      "D": "C1CCCCC1"
+    },
+    "correct": "A",
+    "explanation": "Radikalische Substitution (SR): Bromierung eines Alkans."
+  },
+  {
+    "id": "syn_52",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CCO",
+    "arrow_label": "PBr₃",
+    "visual_options": true,
+    "options": {
+      "A": "CCBr",
+      "B": "CCCl",
+      "C": "CC=C",
+      "D": "CCOCC"
+    },
+    "correct": "A",
+    "explanation": "Nucleophile Substitution: Umwandlung von Alkoholen in Alkylbromide."
+  },
+  {
+    "id": "syn_53",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "C=CC=O",
+    "arrow_label": "H₂, Pd/C",
+    "visual_options": true,
+    "options": {
+      "A": "CCC=O",
+      "B": "C=CCO",
+      "C": "CCCO",
+      "D": "CC(=O)C"
+    },
+    "correct": "A",
+    "explanation": "Katalytische Hydrierung: C=C Doppelbindungen werden meist schneller reduziert als Carbonylgruppen."
+  },
+  {
+    "id": "syn_54",
+    "question": "Wähle das korrekte Produkt",
+    "smiles": "CC#C",
+    "arrow_label": "Na, NH₃ (l)",
+    "visual_options": true,
+    "options": {
+      "A": "C/C=C\\C",
+      "B": "C/C=C/C",
+      "C": "CCCC",
+      "D": "CC#C"
+    },
+    "correct": "B",
+    "explanation": "Birch-Reduktion (Lösendes Metall): Interne Alkine werden zu trans-Alkenen reduziert."
+  }
+]
