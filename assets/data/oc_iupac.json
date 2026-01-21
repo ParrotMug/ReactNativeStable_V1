@@ -1,0 +1,362 @@
+[
+  {
+    "id": "simp_01",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCCCC",
+    "options": {
+      "A": "Butan",
+      "B": "Pentan",
+      "C": "Hexan",
+      "D": "Propan"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "simp_02",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCCC(C)C",
+    "options": {
+      "A": "2-Methylpentan",
+      "B": "4-Methylpentan",
+      "C": "2-Methylbutan",
+      "D": "Isohexan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_03",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCC(CC)CC",
+    "options": {
+      "A": "3-Ethylpentan",
+      "B": "2-Ethylpentan",
+      "C": "3-Propylbutan",
+      "D": "Triethylmethan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_04",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(C)(C)CCC",
+    "options": {
+      "A": "2,2-Dimethylpentan",
+      "B": "4,4-Dimethylpentan",
+      "C": "2-Methyl-2-propylpropan",
+      "D": "2,2-Dimethylbutan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_05",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCC(C)C(CC)CC",
+    "options": {
+      "A": "3-Ethyl-4-methylhexan",
+      "B": "4-Ethyl-3-methylhexan",
+      "C": "4-Methyl-3-ethylhexan",
+      "D": "3-Isopropylhexan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_06",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "C=CCC",
+    "options": {
+      "A": "But-1-en",
+      "B": "But-2-en",
+      "C": "Buten",
+      "D": "1-Buten"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_07",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC=CCCC",
+    "options": {
+      "A": "Hex-2-en",
+      "B": "Hex-4-en",
+      "C": "Hex-3-en",
+      "D": "Hept-2-en"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_08",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(C)C=C",
+    "options": {
+      "A": "4-Methylpent-1-en",
+      "B": "2-Methylpent-4-en",
+      "C": "4-Methylpenten",
+      "D": "2-Methyl-4-penten"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_09",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "C=CC=C",
+    "options": {
+      "A": "Buta-1,3-dien",
+      "B": "Buta-1,2-dien",
+      "C": "Butadien",
+      "D": "But-1,3-en"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_10",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(=C)C",
+    "options": {
+      "A": "2-Methylprop-1-en",
+      "B": "2-Methylprop-2-en",
+      "C": "Methylpropen",
+      "D": "But-1-en"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_11",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC#CC",
+    "options": {
+      "A": "But-2-in",
+      "B": "But-1-in",
+      "C": "Butin",
+      "D": "Propin"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_12",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(O)C",
+    "options": {
+      "A": "Propan-2-ol",
+      "B": "Propan-1-ol",
+      "C": "Propanol",
+      "D": "Isopropanol"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_13",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCC(O)CC",
+    "options": {
+      "A": "Pentan-3-ol",
+      "B": "Pentan-2-ol",
+      "C": "Pentan-4-ol",
+      "D": "3-Hydroxypentan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_14",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCCC(O)C",
+    "options": {
+      "A": "Pentan-2-ol",
+      "B": "Pentan-4-ol",
+      "C": "1-Methylbutan-1-ol",
+      "D": "Hexan-2-ol"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_15",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "C=CC(O)C",
+    "options": {
+      "A": "But-3-en-2-ol",
+      "B": "But-1-en-3-ol",
+      "C": "But-2-ol-3-en",
+      "D": "Hydroxybuten"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_16",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "OCCO",
+    "options": {
+      "A": "Ethan-1,2-diol",
+      "B": "Ethan-1,1-diol",
+      "C": "Dihydroxyethan",
+      "D": "Ethylenglycol"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_17",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(Cl)CCC",
+    "options": {
+      "A": "2-Chlorpentan",
+      "B": "4-Chlorpentan",
+      "C": "2-Chlorbutan",
+      "D": "Chlorpentan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_18",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "ClCCBr",
+    "options": {
+      "A": "1-Brom-2-chlorethan",
+      "B": "2-Brom-1-chlorethan",
+      "C": "1-Chlor-2-bromethan",
+      "D": "Bromchlorethan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_19",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "C1CCCCC1",
+    "options": {
+      "A": "Cyclohexan",
+      "B": "Hexan",
+      "C": "Cyclopentan",
+      "D": "Benzol"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_20",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC1CCCC1",
+    "options": {
+      "A": "Methylcyclopentan",
+      "B": "1-Methylcyclopentan",
+      "C": "Cyclopentylmethan",
+      "D": "Hexan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_21",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(=O)C",
+    "options": {
+      "A": "Propan-2-on",
+      "B": "Propan-1-on",
+      "C": "Propanal",
+      "D": "Methylmethanon"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_22",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCCCC(=O)C",
+    "options": {
+      "A": "Hexan-2-on",
+      "B": "Hexan-5-on",
+      "C": "Hexan-1-on",
+      "D": "Butylmethylketon"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_23",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCC=O",
+    "options": {
+      "A": "Propanal",
+      "B": "Propan-1-al",
+      "C": "Propanon",
+      "D": "Ethanal"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_24",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(=O)O",
+    "options": {
+      "A": "Ethansäure",
+      "B": "Methansäure",
+      "C": "Propansäure",
+      "D": "Ethanol"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_25",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCCN",
+    "options": {
+      "A": "Propan-1-amin",
+      "B": "Propan-2-amin",
+      "C": "Aminopropan",
+      "D": "Propylamid"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_26",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "COCC",
+    "options": {
+      "A": "Methoxyethan",
+      "B": "Ethoxymethan",
+      "C": "Ethylmethylether",
+      "D": "Propylether"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_27",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(O)C(=O)O",
+    "options": {
+      "A": "2-Hydroxypropansäure",
+      "B": "1-Carboxyethanol",
+      "C": "Milchsäure",
+      "D": "Propanolsäure"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_28",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(C)CCC",
+    "options": {
+      "A": "2-Methylpentan",
+      "B": "4-Methylpentan",
+      "C": "1,1-Dimethylbutan",
+      "D": "Isohexan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_29",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CC(C)=CCC",
+    "options": {
+      "A": "2-Methylpent-2-en",
+      "B": "4-Methylpent-3-en",
+      "C": "2-Methyl-2-penten",
+      "D": "1,1-Dimethylbut-1-en"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "simp_30",
+    "question": "Wie lautet der korrekte Name nach IUPAC?",
+    "smiles": "CCC(CC)CO",
+    "options": {
+      "A": "2-Ethylbutan-1-ol",
+      "B": "3-Hydroxymethylpentan",
+      "C": "3-Pentanol",
+      "D": "2-Ethylbutanol"
+    },
+    "correct": "A"
+  }
+]
