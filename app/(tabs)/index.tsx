@@ -2,12 +2,13 @@ import React from 'react';
 import { StyleSheet, Text, View, ScrollView, TouchableOpacity, SafeAreaView } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { StatusBar } from 'expo-status-bar';
-import { useRouter } from 'expo-router'; // <--- WICHTIG: Das ist neu
+import { useRouter } from 'expo-router';
+import { useAuth } from '../../contexts/AuthContext';
 
 export default function HomeScreen() {
-  const router = useRouter(); // <--- WICHTIG: Damit wir navigieren können
+  const router = useRouter();
+  const { user } = useAuth();
 
-  // Kleines Helferlein für das Datum
   const today = new Date().toLocaleDateString('de-DE', { weekday: 'short', day: 'numeric', month: 'short' }).replace('.', '').toUpperCase();
 
   return (
@@ -29,18 +30,24 @@ export default function HomeScreen() {
         <View style={styles.contentPadding}>
 
           {/* --- ACCOUNT TILE --- */}
-          <TouchableOpacity style={styles.sectionTile} activeOpacity={0.7}>
+          <TouchableOpacity 
+            style={styles.sectionTile} 
+            activeOpacity={0.7}
+            onPress={() => router.push('/profile')}
+          >
             <View style={styles.flexRow}>
               <View style={styles.iconBox}>
-                <Text style={{ fontSize: 24 }}>🔐</Text>
+                <Text style={{ fontSize: 24 }}>{user ? '👤' : '🔐'}</Text>
               </View>
               <View>
-                <Text style={styles.tileTitle}>Anmelden</Text>
-                <Text style={styles.tileSub}>Speichere Fortschritt</Text>
+                <Text style={styles.tileTitle}>{user ? 'Profil' : 'Anmelden'}</Text>
+                <Text style={styles.tileSub}>
+                  {user ? user.email : 'Speichere Fortschritt'}
+                </Text>
               </View>
             </View>
             <View style={styles.smallBtn}>
-              <Text style={styles.smallBtnText}>Login</Text>
+              <Text style={styles.smallBtnText}>{user ? 'View' : 'Login'}</Text>
             </View>
           </TouchableOpacity>
 
