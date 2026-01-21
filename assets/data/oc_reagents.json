@@ -1,0 +1,242 @@
+[
+  {
+    "id": "reag_01",
+    "question": "Wofür wird dieses Reagenz hauptsächlich verwendet?",
+    "smiles": "[Li+].[AlH4-]",
+    "options": {
+      "A": "Starkes Reduktionsmittel (reduziert auch Ester/Säuren)",
+      "B": "Mildes Reduktionsmittel (nur für Aldehyde/Ketone)",
+      "C": "Oxidationsmittel für Alkohole",
+      "D": "Katalysator für Hydrierungen"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_02",
+    "question": "Wofür wird dieses Reagenz hauptsächlich verwendet?",
+    "smiles": "[Na+].[BH4-]",
+    "options": {
+      "A": "Reduktion von Carbonsäuren",
+      "B": "Mildes Reduktionsmittel (selektiv für Aldehyde/Ketone)",
+      "C": "Oxidation von Alkenen",
+      "D": "Dehydratisierung von Alkoholen"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "reag_03",
+    "question": "Wofür wird dieses Reagenz (PCC) verwendet?",
+    "smiles": "C1=CC=[NH+]C=C1.[Cl-].[O-][Cr](=O)(=O)Cl",
+    "options": {
+      "A": "Vollständige Oxidation zu Carbonsäuren",
+      "B": "Oxidation von primären Alkoholen zu Aldehyden",
+      "C": "Reduktion von Ketonen",
+      "D": "Chlorierung von Alkanen"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "reag_04",
+    "question": "Wofür wird dieses Reagenz (Jones-Reagenz, CrO3/H2SO4) verwendet?",
+    "smiles": "O=[Cr](=O)=O.OS(=O)(=O)O",
+    "options": {
+      "A": "Milde Oxidation zu Aldehyden",
+      "B": "Starke Oxidation von primären Alkoholen zu Carbonsäuren",
+      "C": "Reduktion von Alkinen",
+      "D": "Bildung von Ethern"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "reag_05",
+    "question": "Wofür wird Thionylchlorid verwendet?",
+    "smiles": "ClS(=O)Cl",
+    "options": {
+      "A": "Umwandlung von Alkoholen in Alkylchloride",
+      "B": "Umwandlung von Alkoholen in Alkylsulfonate",
+      "C": "Oxidation von Alkoholen",
+      "D": "Hydrierung von Alkenen"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_06",
+    "question": "Wofür wird meta-Chlorperbenzoesäure (mCPBA) verwendet?",
+    "smiles": "Clc1cccc(C(=O)OO)c1",
+    "options": {
+      "A": "Spaltung von Doppelbindungen (Ozonolyse)",
+      "B": "Epoxidierung von Alkenen",
+      "C": "Reduktion von Ketonen",
+      "D": "Bromierung von Aromaten"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "reag_07",
+    "question": "Wofür wird Osmiumtetroxid verwendet?",
+    "smiles": "O=[Os](=O)(=O)=O",
+    "options": {
+      "A": "Syn-Dihydroxylierung von Alkenen (cis-Diole)",
+      "B": "Anti-Dihydroxylierung von Alkenen (trans-Diole)",
+      "C": "Oxidative Spaltung von Alkenen",
+      "D": "Reduktion von Alkinen"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_08",
+    "question": "Wofür wird dieses Reagenz (Ozon) verwendet?",
+    "smiles": "[O-][O+]=O",
+    "options": {
+      "A": "Epoxidierung",
+      "B": "Ozonolyse (oxidative Spaltung von C=C)",
+      "C": "Radikalische Substitution",
+      "D": "Hydratisierung von Alkenen"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "reag_09",
+    "question": "Wofür wird ein Grignard-Reagenz (R-Mg-X) verwendet?",
+    "smiles": "C[Mg]Br",
+    "options": {
+      "A": "Als Elektrophil",
+      "B": "Als starkes Nucleophil zur C-C-Knüpfung",
+      "C": "Als Oxidationsmittel",
+      "D": "Als Radikalstarter"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "reag_10",
+    "question": "Wofür wird Lithiumdiisopropylamid (LDA) verwendet?",
+    "smiles": "CC(C)[N-]([Li+])C(C)C",
+    "options": {
+      "A": "Als starke, nicht-nucleophile Base (Enolatbildung)",
+      "B": "Als Reduktionsmittel",
+      "C": "Als Nucleophil für SN2-Reaktionen",
+      "D": "Als Säurekatalysator"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_11",
+    "question": "Wofür wird Natriumamid (NaNH2) verwendet?",
+    "smiles": "[Na+].[NH2-]",
+    "options": {
+      "A": "Starke Base zur Deprotonierung von Alkinen",
+      "B": "Milde Base für Aldolreaktionen",
+      "C": "Oxidationsmittel",
+      "D": "Radikalquelle"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_12",
+    "question": "Wofür wird N-Bromsuccinimid (NBS) verwendet?",
+    "smiles": "O=C1CCC(=O)N1Br",
+    "options": {
+      "A": "Radikalische Wohl-Ziegler-Bromierung (allylisch)",
+      "B": "Elektrophile aromatische Substitution",
+      "C": "Reduktion von Bromiden",
+      "D": "Hydrolyse von Amiden"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_13",
+    "question": "Wofür wird Triphenylphosphin (PPh3) oft verwendet?",
+    "smiles": "c1ccccc1P(c2ccccc2)c3ccccc3",
+    "options": {
+      "A": "In der Wittig-Reaktion (Alken-Synthese)",
+      "B": "Als Oxidationsmittel",
+      "C": "Zur Verseifung von Estern",
+      "D": "Als Protonenquelle"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_14",
+    "question": "Wofür wird Tosylchlorid (TsCl) verwendet?",
+    "smiles": "Cc1ccc(S(=O)(=O)Cl)cc1",
+    "options": {
+      "A": "Umwandlung von OH in eine gute Abgangsgruppe (OTs)",
+      "B": "Chlorierung von Aromaten",
+      "C": "Reduktion von Alkoholen",
+      "D": "Oxidation von Alkoholen"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_15",
+    "question": "Wofür wird das Lindlar-Katalysator-System (H2, Pd/CaCO3) verwendet?",
+    "smiles": "[H][H].[Pd]",
+    "options": {
+      "A": "Vollständige Hydrierung zum Alkan",
+      "B": "Selektive Hydrierung von Alkinen zu (Z)-Alkenen",
+      "C": "Selektive Hydrierung zu (E)-Alkenen",
+      "D": "Dehydrierung"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "reag_16",
+    "question": "Wofür wird Natrium in flüssigem Ammoniak (Na/NH3) verwendet?",
+    "smiles": "[Na].[NH3]",
+    "options": {
+      "A": "Birch-Reduktion (Alkine zu (E)-Alkenen)",
+      "B": "Hydrierung zu (Z)-Alkenen",
+      "C": "Oxidation von Aromaten",
+      "D": "Polymerisation"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_17",
+    "question": "Wofür wird Bortribromid (BBr3) verwendet?",
+    "smiles": "BrB(Br)Br",
+    "options": {
+      "A": "Spaltung von Ethern (Demethylierung)",
+      "B": "Bromierung von Alkanen",
+      "C": "Bildung von Boronsäuren",
+      "D": "Reduktion von Amiden"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_18",
+    "question": "Wofür wird Kaliumpermanganat (KMnO4) verwendet?",
+    "smiles": "[K+].[O-][Mn](=O)(=O)=O",
+    "options": {
+      "A": "Starkes Oxidationsmittel (Dihydroxylierung oder Spaltung)",
+      "B": "Reduktionsmittel",
+      "C": "Säurekatalysator",
+      "D": "Schutzgruppenreagenz"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_19",
+    "question": "Wofür wird DIBAL-H (Diisobutylaluminiumhydrid) verwendet?",
+    "smiles": "CC(C)C[AlH]CC(C)C",
+    "options": {
+      "A": "Selektive Reduktion von Estern zu Aldehyden (bei tiefen Temp.)",
+      "B": "Vollständige Reduktion zu Alkoholen",
+      "C": "Oxidation von Aldehyden",
+      "D": "Eliminierung"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "reag_20",
+    "question": "Wofür wird Acetylchlorid verwendet?",
+    "smiles": "CC(=O)Cl",
+    "options": {
+      "A": "Friedel-Crafts-Acylierung (Einführung von Acetylgruppen)",
+      "B": "Reduktion von Aromaten",
+      "C": "Oxidation von Alkoholen",
+      "D": "Nitrierung"
+    },
+    "correct": "A"
+  }
+]
