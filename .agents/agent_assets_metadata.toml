@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "WiYIZeItwIyC_w-Az3Zil"
+uri = "file://claude_code_prompt_oc1_lernpfad.txt"
+type = "text"
+title = "Claude Code Prompt — OC1 Lernpfad"
