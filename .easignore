@@ -1,0 +1,17 @@
+.git
+attached_assets
+scripts
+keys
+/data
+website
+*.p8
+*.exp
+.local
+__pycache__
+*.pyc
+.pythonlibs
+.cache
+.config
+.npm
+tmp
+.upm
